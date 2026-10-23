@@ -1,0 +1,54 @@
+oops:
+concepts/principles:
+1	class
+2	object
+3	data encapsulation
+4	data abstraction
+5	polymorphism
+6	inheritance
+7	Dynamic Binding
+8	message passing
+
+
+1. class:-it is a collection of data and method.
+where method can operates the data
+types of classes:
+1.built-in
+2.user-defined
+example: 
+class example
+{
+string empname;
+double salary;
+String role;
+int work_experience;
+String dept;
+}
+class student
+{
+String sname;
+int sid;
+String branch;
+int_year_of_study;
+double cgpa;
+int s1,s2,s3,s4,total;
+double average;
+}
+
+int calculateTotal()
+{
+}
+int calculateAverage()
+{
+}
+}
+
+2. object:- it is real-time/world entity
+className obj=new className();
+example:
+Student s=new Student();
+jvm memory:
+  MethodArea  ---->(constrctor object is created)
+		s.name
+		s.sid
+		s.branch
